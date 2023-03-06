@@ -24,8 +24,8 @@ Adguard Home 服务器的安装以及折腾手记。
 
 ### 系列章节
 
-0.  [Adguard Home 初始化设置](./0.ADH初始化设置.md)  
-1.  [Adguard Home 功能设置](./1.ADH功能设置.md)  
+0.  [Adguard Home 初始化设置](./00.ADH初始化设置.md)  
+1.  [Adguard Home 功能设置](./01.ADH功能设置.md)  
 
 ### 文章说明
 
