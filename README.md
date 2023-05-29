@@ -17,15 +17,14 @@ Adguard Home 服务器的安装以及折腾手记。
         - IP 地址：172.16.1.2
         - 子网掩码：255.255.255.0
     - IPv6 网络
-        - 前缀：fc00::/60
-        - 前缀长度：64
-        - IP 地址：fc00::2
+        - 前缀：fdac::/64
+        - IP 地址：fdac::2
 
 
 ### 系列章节
 
-0.  [Adguard Home 初始化设置](./00.ADH初始化设置.md)  
-1.  [Adguard Home 功能设置](./01.ADH功能设置.md)  
+0.  [Adguard Home 初始化设置](./00.AGH初始化设置.md)  
+1.  [Adguard Home 功能设置](./01.AGH功能设置.md)  
 
 ### 文章说明
 
