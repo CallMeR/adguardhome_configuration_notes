@@ -3,28 +3,33 @@
 ## 介绍
 Adguard Home 服务器的安装以及折腾手记。
 
-- Adguard Home 适用版本：v0.107.12
+- Adguard Home 适用版本：v0.107.32
 
 - 演示机：
     - 虚拟化：Proxmox VE
+    - 宿主系统：Debian12
     - CPU：host
     - 内存：2GB
     - 网卡：VirtIO
-    - 磁盘：VirtIO SCSI Single
+    - SCSI 控制器：VirtIO SCSI Single
 
 - 内部网络：
     - IPv4 网络
-        - IP 地址：172.16.1.2
-        - 子网掩码：255.255.255.0
+        - IP 地址：`172.16.1.2`
+        - 子网掩码：`255.255.255.0` ( 即 `/24` )
+        - 网关：`172.16.1.1`
     - IPv6 网络
-        - 前缀：fdac::/64
-        - IP 地址：fdac::2
+        - 分配方式：`SLAAC`
+        - GUA 前缀：`Prefix Delegation`
+        - ULA 前缀：`fdac::/64`
+        - ULA 地址：`fdac::2`
 
 
 ### 系列章节
 
 0.  [Adguard Home 初始化设置](./00.AGH初始化设置.md)  
 1.  [Adguard Home 功能设置](./01.AGH功能设置.md)  
+2.  [Adguard Home 拦截清单收集](./02.AGH拦截清单收集.md)  
 
 ### 文章说明
 
