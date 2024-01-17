@@ -19,10 +19,8 @@ Adguard Home 服务器的安装以及折腾手记。
         - 子网掩码：`255.255.255.0` ( 即 `/24` )
         - 网关：`172.16.1.1`
     - IPv6 网络
-        - 分配方式：`SLAAC`
-        - GUA 前缀：`Prefix Delegation`
-        - ULA 前缀：`fdac::/64`
-        - ULA 地址：`fdac::2`
+        - 首选 `SLAAC` 自动配置
+        - IPv6 ULA 网络使用 `fdac::/64` 作为演示
 
 
 ### 系列章节
