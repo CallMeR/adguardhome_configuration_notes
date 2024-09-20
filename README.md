@@ -7,7 +7,7 @@ Adguard Home 服务器的安装以及折腾手记。
 
 - 演示机：
     - 虚拟化：Proxmox VE
-    - 宿主系统：Debian12
+    - 宿主系统：Debian 12
     - CPU：host
     - 内存：2GB
     - 网卡：VirtIO
