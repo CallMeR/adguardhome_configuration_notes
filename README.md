@@ -3,7 +3,7 @@
 ## 介绍
 Adguard Home 服务器的安装以及折腾手记。
 
-- Adguard Home 适用版本：v0.107.32
+- Adguard Home 适用版本：v0.107.57
 
 - 演示机：
     - 虚拟化：Proxmox VE
